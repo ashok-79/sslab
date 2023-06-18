@@ -35,13 +35,6 @@ void stackpush(char p)
 void main()
 {
 	char c; int i;
-	printf("first(A)={a}\t");
-	printf("follow(A)={$}\n");
-	printf("first(B)={b,@}\t");
-	printf("follow(B)={a}\n\n");
-	printf("\t a \t b \t $ \n");
-	printf("A\t%s\n",prod[0]);
-	printf("B\t%s\t%s\n",prod[2],prod[1]);
 	printf("enter the input string terminated with $ to parse:-");
 	scanf("%s",input);
 	for(i=0;input[i]!='\0';i++)
